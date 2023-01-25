@@ -3,6 +3,6 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=--deepdanbooru --no-half-vae --xformers --autolaunch
+set COMMANDLINE_ARGS=
 
 call webui-offline-setup.bat

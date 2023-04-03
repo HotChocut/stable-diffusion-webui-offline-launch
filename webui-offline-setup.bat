@@ -38,7 +38,7 @@ goto :show_stdout_stderr
 
 :activate_venv
 set PYTHON="%VENV_DIR%\Scripts\Python.exe"
-echo venv %PYTHON%
+echo Launching Web UI in offline mode...
 
 :skip_venv
 if [%ACCELERATE%] == ["True"] goto :accelerate
